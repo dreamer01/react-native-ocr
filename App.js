@@ -8,6 +8,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <View style={styles.image}>
           <Text style={{ textAlign: 'center', margin:10, fontSize:24, color:'#024b7c' }}> Text Extraction  </Text>
+          
           <ScrollView showsVerticalScrollIndicator={false} >
             <CameraRoll/>
           </ScrollView>

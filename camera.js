@@ -52,7 +52,7 @@ export default class CameraRoll extends React.Component {
         type: 'image/jpeg',
         name: 'testPic'
       });
-      fetch('https://fbf33287.ngrok.io',{
+      fetch('https://d8c7ef83.ngrok.io',{
         method: 'POST',
         body: data
       }).then(response => {
